@@ -2,45 +2,46 @@ let data=[
 
         {
             name:"FCSB",
-            url:"/img/FCSB.jpg",
+            url:"./img/FCSB.jpg",
             scor:0
         },
 
          {
             name:"CFR Cluj",
-            url:"/img/CFRCluj.png",
+            url:"./img/CFRCluj.png",
             scor:0
 
          },
 
          {
             name:"Dinamo",
-            url:"/img/Dinamo.png",
+            url:"./img/Dinamo.png",
             scor:0
 
          },
 
          {
             name:"FC U Craiova",
-            url:"/img/FCUCraiova.png",
+            url:"./img/FCUCraiova.png",
             scor:0
          },
 
+
          {
             name:"Poli Iasi",
-            url:"/img/PoliIasi.png",
+            url:"./img/PoliIasi.png",
             scor:0
          },
 
          {
             name:"Astra Giurgiu",
-            url:"/img/astra.jpg",
+            url:"./img/astra.jpg",
             scor:0
          } ,
 
          {
             name:"FC Botosani",
-            url:"/img/FcBotosani.png",
+            url:"./img/FcBotosani.png",
             scor:0
          } 
        
