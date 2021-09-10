@@ -30,6 +30,18 @@ let data=[
             name:"Poli Iasi",
             url:"/img/PoliIasi.png",
             scor:0
+         },
+
+         {
+            name:"Astra Giurgiu",
+            url:"/img/astra.jpg",
+            scor:0
+         } ,
+
+         {
+            name:"FC Botosani",
+            url:"/img/FcBotosani.png",
+            scor:0
          } 
        
        
