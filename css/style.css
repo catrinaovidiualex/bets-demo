@@ -32,7 +32,7 @@ header h1{
 
 
 main{
-    background-image: url("/img/sport-fotbal.jpg");
+    background-image: url("./img/sport-fotbal.jpg");
     background-size: cover;
    
     
