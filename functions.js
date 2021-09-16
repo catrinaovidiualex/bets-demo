@@ -71,8 +71,6 @@ function generateTeams(){
 
 
 
-let btn=document.querySelector('#score');
-
 
 
 
@@ -103,11 +101,86 @@ function generateMatch(){
 
 
 
+function existentaEchipa(echipa){
 
-generateMatch();
-btn.addEventListener('click', ()=>{
+    for(let i=0; i<data.length;i++){
+
+        if(echipa==data[i].name){
+
+            return data[i];
+        }
+    }
+
+    return "";
+    
+  }
 
 
 
-     generateMatch();
+
+
+
+function generateMeci(){
+
+     let genSG=generateScore();
+     let genSO=generateScore();
+
+     let echipaG=prompt("Selectati echipa gazda:");
+
+
+     let echipaO=prompt("Selectati echipa oaspete:");
+
+
+
+     let objG=existentaEchipa(echipaG);
+
+
+        while(objG==""){
+
+             alert("Selectati o alta echipa");
+             let echipaG=prompt("Selectati echipa gazda:");
+             objG=existentaEchipa(echipaG);
+
+
+        }
+
+
+     let objO=existentaEchipa(echipaO);
+
+     while(objO==""){
+
+        alert("Selectati o alta echipa");
+        let echipaO=prompt("Selectati echipa oaspete:");
+        objO=existentaEchipa(echipaO);
+   }
+
+
+   gazde.innerHTML=`
+   <h3>${echipaG}</h3>
+   <img src="${objG.url}" alt="gazde">
+   <p>${genSG}</p>
+  
+   `
+
+   oaspeti.innerHTML=`
+   <h3>${echipaO}</h3>
+   <img src="${objO.url}" alt="oaspeti">
+   <p>${genSO}</p>
+  `
+
+
+
+
+}
+
+
+
+
+let b=document.querySelector(".generare_meciScor");
+
+
+
+b.addEventListener("click",()=>{
+
+     generateMeci();
 })

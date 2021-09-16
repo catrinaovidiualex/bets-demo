@@ -1,84 +1,55 @@
-* {
-     box-sizing: border-box;
-    
-    }
-
 
 body{
-    background-color:rgb(9, 170, 9);
-    width: 100%;
-    height: 95%;;
 
-   
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
 
     
+
+    flex-direction: column;
 }
+
 
 header{
-    
+
+
     width:100%;
-    height: 50px;
+    height: 150px;
     max-height: 200px;
     text-align: center;
+    background-color: rgb(36, 97, 7);
 }
 
-header h1{
-    margin:0;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    margin:auto;
+header h1 {
+    color:white;
 }
-
 
 
 main{
-    background-image: url("../img/sport-fotbal.jpg");
+
+    background-image: url("/img/sport-fotbal.jpg");
     background-size: cover;
-   
-    
-    width:100%;
-    height: 50%;
-    margin: auto;
 
-    height: calc(100vh - 30px);
-    margin-inline: 15px;
-
-
-
-    padding: 10px;
-    
-
+   background-color: green;
+    width: 100%;
     display: flex;
-
-    flex-direction:column ;
-
     align-items: center;
-
     justify-content: center;
-   
+    flex-direction: column;
 
 
 }
 
-.echipa{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.echipa img{
 
 
-    display: block;
+img{
 
-    width: 200px;
+    width: 150px;
     height: 200px;
-
-    object-fit: cover;
-
-    
 
 }
 
@@ -92,7 +63,13 @@ main{
     
 
 }
-
+.gazde p {
+    color:white;
+    
+    text-align: center;
+  
+    font-size: 25px; 
+}
 .oaspeti h3{
     color:white;
     
@@ -103,22 +80,13 @@ main{
 
 }
 
-
-
-
-footer p{
+.oaspeti p {
     color:white;
     
-    
     text-align: center;
+  
+    font-size: 25px; 
 }
-
-footer {
-    width:100%;
-    height: 50px;
-    max-height: 150px;
-}
-
 
 img{
     
@@ -128,17 +96,32 @@ img{
    
 }
 
+
+
+footer p{
+    color:white;
+    background-color: rgb(16, 122, 2);
+   
+   
+    text-align: center;
+    height:50px;
+}
+
+footer {
+    width:100%;
+    height: 30px;
+    max-height: 50px;
+}
+
 .generare_meciScor p {
     color:rgb(250, 8, 8);
-    background-color: yellowgreen;
+    background-color: rgb(148, 218, 8);
     width:130px;
-    height:40px;
+    height:60px;
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
     margin:auto;
     font-size: 25px;
+    cursor: pointer;
 }
-
-
-
