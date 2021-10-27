@@ -1,0 +1,5 @@
+setHome();
+//setStartJoc();
+
+
+

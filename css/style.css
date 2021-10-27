@@ -157,7 +157,7 @@ btnStart{
 	font-weight:bold;
 	padding:13px 32px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
+	text-shadow:0px 1px 0px #1b6904;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #8ece9b 5%, #4aaa57 100%);
@@ -168,3 +168,27 @@ btnStart{
 	top:1px;
 }
 
+
+.exitButton {
+	box-shadow: 0px 10px 14px -7px #e9410e;
+	background:linear-gradient(to bottom, #e6955f 5%, #a04e02 100%);
+	background-color:#db4b12;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #683301;
+}
+.exitButton:hover {
+	background:linear-gradient(to bottom, #c99e4f 5%, #f59506 100%);
+	background-color:#e75703;
+}
+.exitButton:active {
+	position:relative;
+	top:1px;
+}
