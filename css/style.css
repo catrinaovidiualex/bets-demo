@@ -1,7 +1,8 @@
 
 body{
 
-
+    background-image: url("../img/sport-fotbal.jpg");
+    background-size: cover;
     display: flex;
 
     align-items: center;
@@ -11,6 +12,10 @@ body{
     
 
     flex-direction: column;
+}
+
+.container{
+    width:40%;
 }
 
 
@@ -34,8 +39,7 @@ header h2 {
 
 main{
 
-    background-image: url("../img/sport-fotbal.jpg");
-    background-size: cover;
+
 
      background-color: green;
     width: 100%;
