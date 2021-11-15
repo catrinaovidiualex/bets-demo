@@ -15,7 +15,7 @@ let setHome=()=>{
 
         <section>
            
-            <img src="../img/paginaStart.jpg" alt="" class="primapagina">
+            <img src="/img/paginaStart.jpg" alt="" class="primapagina">
             
 
         </section>
@@ -47,10 +47,6 @@ let setHome=()=>{
     })
 }
 
-
-
-
-
 let setStartJoc=()=>{
     let container=document.querySelector(".container")
 
@@ -65,7 +61,7 @@ let setStartJoc=()=>{
 
         <section class="gazde echipa">
             <h3>Gazde</h3>
-            <img src="../img/Dinamo.png" alt="gazde">
+            <img src="/img/Dinamo.png" alt="gazde">
             <p>Scor1</p>
 
 
@@ -73,7 +69,7 @@ let setStartJoc=()=>{
 
         <section class="oaspeti echipa">
             <h3>Oapseti</h3>
-            <img src="../img/FCSB.jpg"alt="oaspeti">
+            <img src="/img/FCSB.jpg"alt="oaspeti">
             <p>Scor2</p>
         </section>
         
@@ -270,7 +266,6 @@ btnIesire.addEventListener("click",()=>{
 })
 }
 
-
 let setIesireJoc=()=>{
     let container=document.querySelector(".container");
 
@@ -286,7 +281,7 @@ let setIesireJoc=()=>{
 
     <section>
        
-        <img src="../img/paginafinala.jpg" alt="" class="primapagina">
+        <img src="/img/paginafinala.jpg" alt="" class="primapagina">
         
 
     </section>
